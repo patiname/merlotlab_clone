@@ -131,3 +131,62 @@ header {
   margin-right: 10px;
 }
 /* section_1 end */
+
+.section_2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.con_wrap_2 {
+  margin-top: 100px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.title_2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.con_wrap_2 h3 {
+  font-size: 70px;
+  font-weight: 900;
+  margin: 25px 0;
+}
+
+.con_wrap_2 p {
+  font-size: 20px;
+  line-height: 1.5rem;
+  color: #333;
+}
+
+.btn_2 {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  background-color: mediumpurple;
+  border-radius: 30px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.img_wrap_2 {
+  width: 840px;
+  height: 495px;
+  background: url(https://merlotlab.com/uploads/media/main_business_img1.jpg)
+    no-repeat center / cover;
+  position: relative;
+}
+
+.text_wrap {
+  width: 500px;
+  height: 280px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -25%;
+  padding: 45px;
+}
